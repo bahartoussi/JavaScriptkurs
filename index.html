@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ereignis Vearbeitung</title>
+</head>
+<body>
+     <button onClick='alert("hallo\" wie gehts?")'>Click</button>
+     <script>
+       // alert("Im skript");
+       let wahrheitswert=false;
+       wahrheitswert=10;
+      
+       console.log( typeof(
+        wahrheitswert));
+        let zahl1=100;
+        //zahl1=zahl1+1;
+        // Postfix Increment
+        zahl1++;
+        console.log(zahl1);
+        //zahl1=zahl1-1;
+        zahl1--;
+        console.log(zahl1);
+        // prefixincrement(operator)
+        console.log(++zahl1);
+
+        /*Vergleichsoperatoren
+        Wertetypen (string,boolean,number) Inhalte vergleich
+        Referenztypen Objekte */
+
+        let w1=10;
+        let w2=10;
+        console.log(w1==w2);
+        let o1={zahl:10};
+        let o2={zahl:10};
+        console.log("Vergleich von zwei Objekten",(o1!=o2));
+        console.log(o1.zahl);
+        console.log(o2.zahl);
+        console.log(o1.zahl==o2.zahl);
+        let zahl3=20;
+        let zahl3text="20";
+        console.log("vergleich von zahl3 und zahl3text", zahl3!==zahl3text);
+        console.log("verknüpfung von string und objekt ", zahl3text+o1)
+        console.log("Addition von zahl1 und property von o1.zahl", zahl3+o1.zahl);
+        // Kurzschlussoperatoren && und || der zweite operand wird nicht immer ausgewertet,bei && wenn der erste operand false, bei || wenn der erste operand true
+        
+       /* Rangfolge von Operatoren
+
+        & >|   & wird vor | ausgewertet
+      (A & B) | C ist dassele wie A & B | C
+
+     */
+
+     // Vergleichsoperation z.B Ausdruck muss boolsches Ergebnis liefern ? Ausdruck1: Ausdruck2  ternärer Operator (? Operator)
+    let ergebnis=w1!==w2 ? "Die Datentypen und die Inhalte sind gleich": "Die Datentypen sind eben nicht gleich und auch nicht die Inhalte ";
+    console.log(ergebnis);
+    // Bitoperatoren
+    // 5 101  -> 101 ^ 011 ->   110 =6
+   let typeoferg=typeof("7"*7);
+    console.log("typeoferg "+typeoferg);
+
+    /* Kontrollstrukturen
+
+     if Beispiele
+    */
+     let geradeoderungerade=10;
+
+     if(geradeoderungerade%2==0){
+        console.log("Diese zahl its gerade");
+     }
+
+     /* Widerholungen (Schleifen)
+        Dry prinzip  Don't repeat yourself
+
+     */
+    let zahleins=1;
+    let zahlzwei=2;
+    let zahldrei=3;
+    console.log(zahleins,zahlzwei,zahldrei);
+    /* for Schleife 
+
+      for(const elem of iterable) {
+                console.log(" Element an Stelle x im Container ist "+elem);
+      }
+    */
+
+    /* Funktionen 
+    LIFO prinzip 
+
+    return Anweisung hier wird eine Variable an das ausführenden Programm geliefert
+
+    void leere Rückgabe an den Aufrufer
+
+    Funktionsparameter das sind die variablen, die in den runden klammern stehen 
+    
+    */ 
+    
+    /* variablen, die hier übergeben werden, sind die Argumente */
+    
+
+    let math1= parseFloat(prompt("Bitte übergib eine Zahl"));
+    let math2=parseFloat(prompt("Bitte übergib eine zweite zahl"));
+    if(isNaN(math1) || isNaN(math2)){
+       window.alert("Bitte übergib zwei zahlen");
+    }
+    else {
+      const resultat=add(math1, math2);
+      document.writeln(`Das Ergebnis von der Summe der beiden zahlen ${math1} und ${math2}  ist ${resultat}`);
+    }
+
+
+    function add(zahl1, zahl2)
+    {
+       
+      let summe=zahl1+zahl2;
+      return summe;
+    }
+    
+    
+
+    
+
+
+
+     </script>
+</body>
+</html>
