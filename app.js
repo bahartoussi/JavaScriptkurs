@@ -1,0 +1,1 @@
+console.log("Hallo, wie gehts. Von externer datei?")

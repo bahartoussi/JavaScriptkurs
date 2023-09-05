@@ -1,0 +1,19 @@
+Javascript ist eine Sammlung von verschiedenen Scriptsprachen( ECMAScript)
+QuellCode, wird dann gelesen vom Browser
+
+Local Server: localhost ( IP Addresse 127.0.0.1 ( Internet Protocoll)
+DNS ( Domain Nameservice Zuordnung von Zahlenaddressen zu Namen ) 
+Nach dem Doppelpunkt ist die Portangabe(Portnummer)
+FTP ( File Transport Protocoll) ist auf  Port 21 
+SMTP ( Simple Mail Transfer Protocoll) ist auf Port 25
+SSH (Secure shell) 
+MIME Typen (Multiple Internet Mail Extension) 
+Oberbegriff ( Art der Resource) Unterbegriff  text/plain  text/html  text/javascript video/mpeg4 audio/wav
+Anfangs und Endtag getrennt
+<script>
+
+
+
+</script>
+
+Zeilenumbruch  Anfangs und Endtag in einem <br/>
