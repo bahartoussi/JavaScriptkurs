@@ -1,0 +1,13 @@
+Reservierten Wörter
+Begriffe(Wörter), die eine bestimmte festgelegte Bedeutung haben,
+und oft nur an einer bestimmten Stelle vorkommen dürfen.
+Dürfen nicht als Variablennamen verwendet werden.
+Beispiel: if
+Variablenname darf nicht if heißen, aber if_meinevariable
+Variable kann verschiedene Werte(Inhalte) haben.
+var heißt globale Gültigkeit
+Globale Variablen werden "gehoistet". "Hoisten" heißt globale Variablen
+werden an den Anfang der Datei verschoben
+Variablen, Konstanten immer einen Wert bei der Deklaration zuweisen
+Lokale Variablen mit let. Wenn let außerhalb von {} dann auch überall 
+gültig
