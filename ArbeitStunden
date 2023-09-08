@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein erste WebSite</title>
+</head>
+<body>
+<script>
+let ArbeitStundenProMonat;
+let ArbeitStundenProWoche=38;
+{//Arbeitstunden in erste Woche
+let UberStundenW1=5;
+var ArbeitStundenW1
+ArbeitStundenW1=ArbeitStundenProWoche+UberStundenW1;
+console.log('Arbeitsunden in erste woche ist : '+ ArbeitStundenW1);
+}
+{//Arbeitstunden in zweite Woche
+let UberStundenW2=4;
+var ArbeitStundenW2;
+ArbeitStundenW2=ArbeitStundenProWoche+UberStundenW2;
+console.log('Arbeitsunden in zweite woche ist : '+ ArbeitStundenW2);
+}
+{//Arbeitstunden in drite Woche
+let UberStundenW3=5;
+var ArbeitStundenW3;
+ArbeitStundenW3=ArbeitStundenProWoche+UberStundenW3;
+console.log('Arbeitsunden in drite woche ist : '+ ArbeitStundenW3);
+}
+{//Arbeitstunden in vierte Woche
+let UberStundenW4=3;
+var ArbeitStundenW4;
+ArbeitStundenW4=ArbeitStundenProWoche+UberStundenW4;
+console.log('Arbeitsunden in drite woche ist : '+ ArbeitStundenW4);
+}
+ArbeitStundenProMonat=ArbeitStundenW1+ArbeitStundenW2+ArbeitStundenW3+ArbeitStundenW4;
+console.log('ArbeitStundenProMonat= '+ArbeitStundenProMonat);
+</script>
+</body>
+
+</html>
