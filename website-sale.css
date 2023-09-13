@@ -1,0 +1,41 @@
+div{
+	/*flex-direction:right-side;
+	display:flex;
+	align-items: center;
+	min-height:90vh;
+	justify-content: center;*/
+	margin:auto;
+	float:center;
+	width: 200px;
+}
+
+p{
+	color:#146ef4;
+	font-size:14;
+	font-family:italic;
+	margin-top:5px;
+}
+
+
+h1,h2{
+	text-align:center;
+	border:2px;
+	font-style:bold;
+	color:blue;
+	
+	}
+	img{
+		size:100px;
+		/*align-items: right-side;*/
+		width: 100%;
+        height: auto;
+		margin-left:auto;
+	}
+	img:hover{
+		border:solid;
+	}
+	a{
+		align:center;
+		
+	}
+	
