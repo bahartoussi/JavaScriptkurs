@@ -1,18 +1,17 @@
 div{
-	/*flex-direction:right-side;
+	/*flex-direction:right-side;*/
 	display:flex;
 	align-items: center;
-	min-height:90vh;
-	justify-content: center;*/
+	min-height:20vh;
+	justify-content: center;
 	margin:auto;
-	float:center;
-	width: 200px;
-}
+	width: 250px;
+	}
 
 p{
 	color:#146ef4;
-	font-size:14;
-	font-family:italic;
+	/*font-size:14;
+	/*font-family:italic;*/
 	margin-top:5px;
 }
 
@@ -29,13 +28,14 @@ h1,h2{
 		/*align-items: right-side;*/
 		width: 100%;
         height: auto;
-		margin-left:auto;
+		/*margin-left:auto;*/
 	}
 	img:hover{
 		border:solid;
 	}
 	a{
 		align:center;
+		margin-top:20px;
 		
 	}
 	
