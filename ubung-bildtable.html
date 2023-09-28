@@ -1,0 +1,91 @@
+ <!doctype html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title>my object</title>
+ <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+</style>
+ </head>
+ <body>
+ <h3>Informationen uber kunstliche Bilder</h3>
+ <table>
+ <tr>
+    <th>Name</th>
+    <th>Material</th>
+    <th>Size</th>
+	<th>Price</th>
+	<th>Available</th>
+  </tr>
+ <tr>
+    <td>winter</td>
+    <td>watercolor</td>
+    <td>20*30</td>
+	<td>50euro</td>
+	<td>yes</td>
+
+  </tr>
+  <tr>
+    <td>violet-lake</td>
+    <td>watercolor</td>
+    <td>15*15</td>
+	<td>25euro</td>
+	<td>yes</td>
+  </tr>
+  <tr>
+    <td>New york</td>
+    <td>acrylic</td>
+    <td>50*60</td>
+	<td>1500euro</td>
+	<td>yes</td>
+
+  </tr>
+  <tr>
+    <td>wheat-field</td>
+    <td>watercolor</td>
+    <td>20*20</td>
+	<td>30euro</td>
+	<td>no</td>
+  </tr>
+  <tr>
+    <td>sunset-river</td>
+    <td>watercolor</td>
+    <td>20*20</td>
+	<td>35euro</td>
+	<td>yes</td>
+
+  </tr>
+ </table>
+ <br/>
+ <br/>
+<script type="text/javascript">
+ function Array(name,material,size,price,available){
+	this.name=name;
+	this.material=material;
+	this.size=size;
+	this.price=price;
+	this.available='yes';
+}
+let bild1=new Array('winter','watercolor','20*30','50euro','yes');
+let bild2=new Array('violet-lake','watercolor','20*20','50euro','yes');
+let bild3=new Array('winter','watercolor','20*30','50euro','yes');
+let bild4=new Array('winter','watercolor','20*30','50euro','yes');
+
+document.write('----- Name-----','-----Material-----','-----Size-----','-----Price-----','-----Available','<br/>','<br/>');
+
+document.write('-----',bild1.name,'---------',bild1.material,'------',bild1.size,'--------',bild1.price,'----------',bild1.available,'<br/>');
+document.write('-----',bild2.name,'----',bild2.material,'------',bild2.size,'--------',bild2.price,'----------',bild2.available,'<br/>');
+document.write('-----',bild3.name,'---------',bild3.material,'------',bild3.size,'--------',bild3.price,'----------',bild3.available,'<br/>');
+document.write('-----',bild4.name,'---------',bild4.material,'------',bild4.size,'--------',bild4.price,'----------',bild4.available,'<br/>');
+</script>
+</body>
+</html>
