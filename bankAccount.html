@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script type="text/JavaScript">
+// Create an object:
+const person = {
+  firstName: "bahar",
+  lastName: "toussi",
+  accountNumber: "1001",
+  accountValue: 0,
+  set getvalue(value){
+    this.accountValue-=value;
+  },
+  set setvalue(value){
+    this.accountValue+=value;
+  } 
+   
+}
+person.setvalue=5000;
+person.getvalue=2000;
+  
+
+document.getElementById("demo").innerHTML = person.accountValue;
+
+</script>
+
+</body>
+</html>
